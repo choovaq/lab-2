@@ -1,24 +1,23 @@
 package ru.avalon.java.dev.j10.labs;
 
-import ru.avalon.java.dev.j10.labs.factories.RandomShapeFactory;
-import ru.avalon.java.dev.j10.labs.factories.ShapeFactory;
 import ru.avalon.java.dev.j10.labs.shapes.Shape;
 
 public class Main {
 
     public static void main(String[] args) {
-        ShapeFactory factory = new RandomShapeFactory();
-
-        Shape[] shapes = new Shape[20];
+        Shape[] shapes = null;
 
         /*
          * TODO: Выполнить действия над массивом 'shapes'
          *
-         * 1. Проинициализировать элементы массива 'shapes'
-         *    20-ю случайными фигурами.
+         * 1. Проинициализировать переменную 'shapes' массивом
+         *    содержащим 10 произвольных фигур. Массив должен
+         *    содержать экземпляры классов Circle, Rectangle
+         *    и Triangle.
          *
          * 2. Найти в массиве 'shapes' фигуру с максимальной
-         *    площадью.
+         *    площадью. Для поиска фигуры необходимо создать
+         *    статический метод в текущем классе (Main).
          */
     }
 }
